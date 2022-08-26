@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HIO</title>
+
+    <!-- reset.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
+    />
+
+    <!-- 폰트 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aboreto&family=Noto+Sans+KR&family=Noto+Serif+KR:wght@500&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="../../css/idea.css" />
+    <script src="/js/includeHeader.js"></script>
+    <script src="/js/includeFooter.js"></script>
+  </head>
+  <body>
+    <header id="header"></header>
+    <!-- 메뉴 -->
+    <div class="title">
+      <div class="inner">
+        <div class="suggestion_menu">
+          <a href="/pages/idea/" class="suggestion__"> 학생의견수렴 </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 게시판 -->
+    <div class="post">
+      <div class="inner">
+        <div class="post__wrapper">
+          <div class="tellme">
+            <h1>Tell me what you want</h1>
+          </div>
+          <div class="post__">
+            <div class="post__note">
+              <div class="inner">
+                <table
+                  class="post-table"
+                  style="margin-left: auto; margin-right: auto"
+                >
+                  <thead>
+                    <tr>
+                      <th scope="col" class="th-num">번호</th>
+                      <th scope="col" class="th-title">제목</th>
+                      <th scope="col" class="th-num">공감</th>
+                      <th scope="col" class="th-date">날짜</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>0218</td>
+                      <td>
+                        <a href="/pages/idea/detail.html"
+                          >학식 종류가 더 다양해지고 맛있었으면 좋겠어요</a
+                        >
+                      </td>
+                      <td>♥ 121</td>
+                      <td>2022-08-22</td>
+                    </tr>
+                    <tr>
+                      <td>0217</td>
+                      <td>
+                        <a href="javascript:void(0)"
+                          >다음 축제 때 아이돌 불러주세요</a
+                        >
+                      </td>
+                      <td>♥ 108</td>
+                      <td>2022-08-03</td>
+                    </tr>
+                    <tr>
+                      <td>0216</td>
+                      <td>
+                        <a href="javascript:void(0)"
+                          >외부인 출입통제 언제까지 하나요?</a
+                        >
+                      </td>
+                      <td>♥ 143</td>
+                      <td>2022-07-28</td>
+                    </tr>
+                    <tr>
+                      <td>0215</td>
+                      <td>
+                        <a href="javascript:void(0)"
+                          >차관 에어컨 수리 좀 해주세요 너무 더워요</a
+                        >
+                      </td>
+                      <td>♥ 211</td>
+                      <td>2022-06-31</td>
+                    </tr>
+                    <tr>
+                      <td>0214</td>
+                      <td>
+                        <a href="javascript:void(0)"
+                          >개강 한 달만 늦게 해주세요</a
+                        >
+                      </td>
+                      <td>♥ 156</td>
+                      <td>2022-06-12</td>
+                    </tr>
+                    <tr>
+                      <td>0213</td>
+                      <td>
+                        <a href="javascript:void(0)"
+                          >교내 무선 인터넷 연결망 확대 좀 해주세요 제발요</a
+                        >
+                      </td>
+                      <td>♥ 11</td>
+                      <td>2022-05-30</td>
+                    </tr>
+                    <tr>
+                      <td>0212</td>
+                      <td>
+                        <a href="javascript:void(0)"
+                          >외부인 출입통제 언제까지 하나요?</a
+                        >
+                      </td>
+                      <td>♥ 27</td>
+                      <td>2022-05-04</td>
+                    </tr>
+                    <tr>
+                      <td>0211</td>
+                      <td>
+                        <a href="javascript:void(0)">학식 가격좀 내려주세요</a>
+                      </td>
+                      <td>♥ 14</td>
+                      <td>2022-04-27</td>
+                    </tr>
+                    <tr>
+                      <td>0210</td>
+                      <td>
+                        <a href="javascript:void(0)"
+                          >교내 시설에 대해 자세한 설명이 듣고 싶어요</a
+                        >
+                      </td>
+                      <td>♥ 131</td>
+                      <td>2022-04-06</td>
+                    </tr>
+                    <tr>
+                      <td>0209</td>
+                      <td>
+                        <a href="javascript:void(0)"
+                          >개강 한 달만 늦게 해주세요</a
+                        >
+                      </td>
+                      <td>♥ 72</td>
+                      <td>2022-03-25</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <div class="write__box">내용을 적어주세요</div>
+                <div class="write__btn">
+                  <a class="" href="javascript:void(0)">글쓰기</a>
+                </div>
+
+                <div class="text-center">
+                  <ul class="pagination">
+                    <li><a href="javascript:void(0)"><</a></li>
+                    <li>
+                      <a href="javascript:void(0)" style="font-weight: 800"
+                        >1</a
+                      >
+                    </li>
+                    <li><a href="javascript:void(0)">2</a></li>
+                    <li><a href="javascript:void(0)">3</a></li>
+                    <li><a href="javascript:void(0)">4</a></li>
+                    <li><a href="javascript:void(0)">5</a></li>
+                    <li><a href="javascript:void(0)">></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer id="footer"></footer>
+  </body>
+</html>

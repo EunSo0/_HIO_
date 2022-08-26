@@ -1,0 +1,187 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #000;
+  background-color: #f6f5f0;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  top: 0;
+}
+header > .inner {
+  height: 150px;
+  display: block;
+}
+header .main {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+}
+header .main .logo {
+  font-family: "Aboreto", cursive;
+  font-size: 30px;
+  font-weight: 600;
+  color: #000;
+  margin: 0 auto;
+}
+header .main .login {
+  padding: 2px 7px;
+  border: 1.5px solid #333;
+  border-radius: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
+header .main_menu {
+  width: 100%;
+  height: 40px;
+  border-top: solid 1px #333;
+  border-bottom: solid 1px #333;
+}
+header .main_menu ul.menu {
+  display: flex;
+}
+header .main_menu ul.menu li {
+  padding: 8px 0;
+  text-align: center;
+  width: 220px;
+}
+header .main_menu ul.menu > li > a {
+  font-size: 15px;
+}
+header .main_menu ul.menu > li > a:hover {
+  font-weight: 700;
+}
+header .main_menu ul.menu > li > ul {
+  display: none;
+}
+header .main_menu ul.menu > li:hover > ul {
+  position: relative;
+  margin-top: 16px;
+  display: block;
+  background-color: #f6f5f0;
+  border: 1.5px solid #333;
+  border-radius: 3px;
+  z-index: 9;
+}
+header .main_menu ul.menu > li > ul > li {
+  margin-top: 2px;
+}
+header .main_menu ul.menu > li > ul > li > a {
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+}
+header .main_menu ul.menu > li > ul > li > a:hover {
+  font-weight: 600;
+}
+
+/* 메뉴 */
+.title {
+  position: relative;
+}
+.title .suggestion_menu {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  margin: 30px;
+}
+.title .suggestion_menu .suggestion__ {
+  display: flex;
+  margin-right: 40px;
+  cursor: pointer;
+  font-weight: 800;
+  padding-bottom: 3px;
+  border-bottom: solid 1.5px #000;
+}
+
+.post {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+.post > .inner {
+  height: 100%;
+}
+.post .post__wrapper {
+  width: 100%;
+  height: 1000px;
+  border: solid 1.5px #333;
+}
+.post .post__wrapper .post__box {
+  width: 80%;
+  height: 50%;
+  margin: 50px;
+  background-color: #d9d9d9;
+  padding: 50px;
+}
+.post .post__wrapper .post__box .title {
+  font-size: 30px;
+  font-weight: 800;
+}
+.post .post__wrapper .post__box .content {
+  padding-top: 15px;
+  font-size: 20px;
+}
+.post .post__wrapper .post__box .good {
+  position: absolute;
+  display: flex;
+  border: solid 1.5px #333;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 20px;
+  cursor: pointer;
+  bottom: 390px;
+  right: 110px;
+}
+.post .post__wrapper .answer__box {
+  width: 88%;
+  height: 20%;
+  margin-left: 52px;
+  border: solid 1.5px #333;
+}
+.post .post__wrapper .answer__box .title {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 30px 0 0 40px;
+}
+.post .post__wrapper .answer__box .enter {
+  position: absolute;
+  display: flex;
+  bottom: 230px;
+  right: 130px;
+  border: solid 1.5px #333;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.post .post__wrapper .answer__box .line {
+  width: 90%;
+  height: 80px;
+  border-bottom: solid 1px #333;
+  margin: auto;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  margin-top: 100px;
+}
